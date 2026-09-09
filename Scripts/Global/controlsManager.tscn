@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://n4cpcy0fv3n8"]
+
+[ext_resource type="Script" uid="uid://b2pgobb1tp7ai" path="res://Scripts/Global/controlsManager.gd" id="1_8j3te"]
+
+[node name="Controls" type="Node" unique_id=655643418]
+script = ExtResource("1_8j3te")
+
+[node name="IntervalTimer" type="Timer" parent="." unique_id=341839408]
+wait_time = 0.3
+one_shot = true
+
+[node name="IntervalSwitchTimer" type="Timer" parent="." unique_id=916248027]
+wait_time = 0.9
+one_shot = true
+
+[connection signal="timeout" from="IntervalSwitchTimer" to="." method="_on_IntervalSwitchTimer_timeout"]

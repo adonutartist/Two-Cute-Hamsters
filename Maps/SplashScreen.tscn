@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bhvbw2mqbusnx"]
+
+[node name="SplashScreen" type="Control" unique_id=141758796]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SplashScreen" type="Sprite2D" parent="." unique_id=1694382619]
+
+[node name="Credits" type="Sprite2D" parent="." unique_id=1869176073]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1170199091]

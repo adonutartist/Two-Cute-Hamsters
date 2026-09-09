@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dbhiy4t0mwrse"]
+
+[ext_resource type="Script" uid="uid://430j0x0uq3m2" path="res://Scripts/Global/audioManager.gd" id="1_4s6ca"]
+[ext_resource type="AudioStream" uid="uid://cljudglmhpbwg" path="res://Audio/Music/hamster_jazz.mp3" id="2_oudxw"]
+
+[node name="audioManager" type="Control" unique_id=345759464]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_4s6ca")
+
+[node name="MusicPlayer" type="Control" parent="." unique_id=1915214818]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MusicPlayer0" type="AudioStreamPlayer" parent="MusicPlayer" unique_id=1026653659]
+stream = ExtResource("2_oudxw")
+
+[node name="MusicPlayer1" type="AudioStreamPlayer" parent="MusicPlayer" unique_id=220284233]
+
+[node name="Sfx" type="Node" parent="." unique_id=2061854267]

@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Two Cute Hamsters"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+AudioManager="*uid://dbhiy4t0mwrse"
+ControlsManager="*uid://n4cpcy0fv3n8"
+Global="*uid://ba3vqst0phf8n"
+Slowmo="*uid://bfn32bpx8m7wr"
+UiCanvasLayer="*uid://q5a1tx4r7mde"
+TimeManager="*uid://o1aqc8fnkvmu"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
