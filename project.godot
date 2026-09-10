@@ -21,6 +21,7 @@ ControlsManager="*uid://n4cpcy0fv3n8"
 Global="*uid://ba3vqst0phf8n"
 Slowmo="*uid://bfn32bpx8m7wr"
 UiCanvasLayer="*uid://q5a1tx4r7mde"
+WindowManager="*uid://cd60452r44vl3"
 TimeManager="*uid://o1aqc8fnkvmu"
 
 [display]
